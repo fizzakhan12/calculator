@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div>
+            <input type="text" class="input" id="result" >
+        </div>
+        <div>
+            <button class="btnclear" onclick="clearbtn()">Clear</button>
+        </div>
+        <div>
+            <button class="btn123" onclick="number('7');this.style.outline='none'">7</button>
+            <button class="btn123" onclick="number('8')">8</button>
+            <button class="btn123" onclick="number('9')">9</button>
+            <button class="btn123" onclick="number('*')">*</button>
+        </div>
+        <div>
+            <button class="btn123" onclick="number('4')">4</button>
+            <button class="btn123" onclick="number('5')">5</button>
+            <button class="btn123" onclick="number('6')">6</button>
+            <button class="btn123" onclick="number('-')">-</button>
+        </div>
+        <div>
+            <button class="btn123" onclick="number('1')">1</button>
+            <button class="btn123" onclick="number('2')">2</button>
+            <button class="btn123" onclick="number('3')">3</button>
+            <button class="btn123" onclick="number('+')">+</button>
+        </div>
+        <div>
+            <button class="btn-2" onclick="number('0')">0</button>
+            <button class="btn-2" onclick="resultcalc()">=</button>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
